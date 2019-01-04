@@ -1,0 +1,26 @@
+---
+baseURL: "https://labanskoller.se/"
+languageCode: en-us
+title: Laban Sköllermark
+copyright: This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+theme: ananke
+
+MetaDataFormat: yaml
+DefaultContentLanguage: en
+sectionPagesMenu: main
+permalinks:
+  blog: /blog/:year/:month/:day/:title/
+
+author:
+  name: Laban Sköllermark
+
+params:
+  description: "Laban Sköllermark's blog focused on IT security"
+  images:
+    /images/hyllie_thunder.jpg
+  featured_image: /images/hyllie_thunder.jpg
+  background_color_class: bg-black
+  github: https://github.com/labanskoller
+  linkedin: https://www.linkedin.com/in/labanskollermark/
+  twitter: https://twitter.com/LabanSkoller
+...

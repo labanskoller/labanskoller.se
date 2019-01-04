@@ -1,0 +1,4 @@
+*.sw[ponm]
+*~
+/public/
+/resources/_gen/
