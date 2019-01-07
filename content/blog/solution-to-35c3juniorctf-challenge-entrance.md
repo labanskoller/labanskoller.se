@@ -355,7 +355,7 @@ and the CTF organizers seemed to send the flag every minute or so.
 
 # Summary
 
-The following Ethereum contract is vulnerable to a [reentrancy attack](https://medium.com/@gus_tavo_guim/reentrancy-attack-on-smart-contracts-how-to-identify-the-exploitable-and-an-example-of-an-attack-4470a2d8dfe4) since the sender is called **before** it's recorded that the sender has played and can't play anymore and efter the balance is increased:
+The following Ethereum contract is vulnerable to a [reentrancy attack](https://medium.com/@gus_tavo_guim/reentrancy-attack-on-smart-contracts-how-to-identify-the-exploitable-and-an-example-of-an-attack-4470a2d8dfe4) since the sender is called **before** it's recorded that the sender has played and can't play anymore and after the balance is increased:
 
 {{< highlight solidity "linenos=table,hl_lines=37 39-40" >}}
 pragma solidity >=0.4.21 <0.6.0;
