@@ -1,0 +1,67 @@
+[
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "kill",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "entrance",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "enter",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "getFlag",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"name": "_entrance",
+				"type": "address"
+			},
+			{
+				"name": "_server",
+				"type": "string"
+			},
+			{
+				"name": "_port",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "fallback"
+	}
+]
