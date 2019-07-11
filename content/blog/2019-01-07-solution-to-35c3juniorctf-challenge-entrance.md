@@ -464,6 +464,12 @@ The flag got delivered to the wanted `server:port`:
 35c3_reeeeeeeeeeeeeeeeeeeeee
 ```
 
+# Comments?
+
+Do you have comments? Interact with this tweet:
+
+{{< tweet 1082089985820504064 >}}
+
 # More 35C3 Junior CTF Write-Ups
 The Norwegian hackerspace [Hackeriet](https://hackeriet.no/index.en.html) had a (tiny) [team](https://archive.aachen.ccc.de/junior.35c3ctf.ccc.ac/submissions/755/index.html) in the 35C3 Junior CTF. Please see the following write-ups by Alexander Kjäll a.k.a. capitol:
 

@@ -307,6 +307,12 @@ Many common mobile authenticator apps accept QR codes for hash algorithms, perio
 
 The best app out of the tested ones is in my opinion **Sophos Authenticator** which supports all modes on both platforms. **Symantec VIP Access** is the second best since it doesn't support all modes but it tells the user when a mode is not supported.
 
+# Comments?
+
+Do you have comments? Interact with this tweet:
+
+{{< tweet 1149417515505897472 >}}
+
 # Credit
 Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> licensed by <a href="https://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>.
 
