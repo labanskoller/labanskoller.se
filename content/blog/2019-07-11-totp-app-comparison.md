@@ -21,6 +21,23 @@ You probably use an "authenticator app" such as Google Authenticator to enable t
 * Symantec VIP Access
 * Yubico Authenticator
 
+# Conclusion
+
+EDIT: This section except for the last paragraph was accidentally deleted before publication and was restored two hours later. Thanks, `git log -S Conclusion --walk-reflogs --patch`!
+
+The de-facto standard is to transfer TOTP parameters including the secret (key) using a QR code. It seems Google invented this method. The QR code encodes text on the so called *Key URI* format as per a [Google Authenticator wiki article](https://github.com/google/google-authenticator/wiki/Key-Uri-Format):
+```
+otpauth://totp/ACME%20Co:john.doe@email.com?secret=HXDMVJECJJWSRB3HWIZR4IFUGFTMXBOZ&issuer=ACME%20Co&algorithm=SHA1&digits=6&period=30
+```
+The TOTP standard recommends a default time-step size of 30 seconds. Many apps support 60 seconds as well. The HMAC-SHA-1 hash function is the default but HMAC-SHA-256 and HMAC-SHA-512 are also allowed. The Key URI format says
+
+> The digits parameter may have the values 6 or 8, and determines how long of a one-time passcode to display to the user. The default is 6.
+
+Varying the number of digits is not mentioned in the TOTP standard apart from in the [Java reference implementation](https://tools.ietf.org/html/rfc6238#appendix-A), but it's mentioned as an extension in the underlying HMAC-Based One-Time Password Algorithm (HOTP) standard ([<nobr>RFC 4226</nobr>](https://tools.ietf.org/html/rfc4226)) in [Appendix E.1](https://tools.ietf.org/html/rfc4226#appendix-E.1):
+
+> A simple enhancement in terms of security would be to extract more digits from the HMAC-SHA-1 value.
+> For instance, calculating the HOTP value modulo 10^8 to build an 8-digit HOTP value would reduce the probability of success of the adversary from sv/10^6 to sv/10^8.
+
 My investigations show that many common mobile authenticator apps accept QR codes for hash algorithms, periods and number of digits they don't support. Instead they assume the standard settings and generate tokens based on that, giving **wrong tokens**, **no error messages** and a **bad user experience**. Sites providing TOTP as a two-step verification method usually require the user to provide one token to prove that it has saved the TOTP parameters, the device has correct time and so on so there is no risk that these shortcomings would lock out users from their accounts, but there is a risk that a user would skip two-step verification if the setup process fails.
 
 # Recommendation to App Developers
