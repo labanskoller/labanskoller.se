@@ -22,3 +22,5 @@ When I'm happy with the results I can remove the draft status, push a commit and
 ```bash
 $ hugo
 ```
+
+UPDATED 2019-07-11: The source of this website is now available at GitHub: https://github.com/labanskoller/labanskoller.se
