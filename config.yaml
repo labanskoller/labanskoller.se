@@ -18,6 +18,7 @@ sitemap:
   filename: sitemap.xml
 
 permalinks:
+  attachment: /attachment/:title/
   blog: /blog/:year/:month/:day/:title/
 
 author:
