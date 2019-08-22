@@ -7,7 +7,16 @@ theme: ananke
 
 MetaDataFormat: yaml
 DefaultContentLanguage: en
-sectionPagesMenu: main
+SectionPagesMenu: main
+Paginate: 10
+googleAnalytics: ""
+enableRobotsTXT: true
+
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+  filename: sitemap.xml
+
 permalinks:
   blog: /blog/:year/:month/:day/:title/
 
@@ -15,6 +24,7 @@ author:
   name: Laban Sköllermark
 
 params:
+  favicon: ""
   description: "Laban Sköllermark's blog focused on IT security"
   images:
     - /images/hyllie_thunder.jpg
@@ -23,4 +33,5 @@ params:
   github: https://github.com/labanskoller
   linkedin: https://www.linkedin.com/in/labanskollermark/
   twitter: https://twitter.com/LabanSkoller
+  recent_posts_number: 5
 ...
