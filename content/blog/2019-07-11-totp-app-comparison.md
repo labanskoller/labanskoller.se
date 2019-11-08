@@ -1,5 +1,6 @@
 ---
 title: "Many Common Mobile Authenticator Apps Accept QR Codes for Modes They Don't Support"
+author: Laban Sköllermark ([@LabanSkoller](https://twitter.com/LabanSkoller))
 date: 2019-07-11T22:00:00+02:00
 featured_image: blog/images/totp_unsupported_barcode.png
 images:

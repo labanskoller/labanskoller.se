@@ -1,5 +1,6 @@
 ---
 title: "New Static Blog Using Hugo"
+author: Laban Sköllermark ([@LabanSkoller](https://twitter.com/LabanSkoller))
 date: 2019-01-04T06:20:00+01:00
 featured_image: blog/images/hugo-logo-wide.svg
 images:

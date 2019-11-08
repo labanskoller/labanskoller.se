@@ -1,5 +1,6 @@
 ---
 title: 'Solution to 35C3 Junior CTF Challenge "Entrance"'
+author: Laban Sköllermark ([@LabanSkoller](https://twitter.com/LabanSkoller))
 date: 2019-01-07T02:30:00+01:00
 featured_image: blog/images/reentrance.png
 images:
