@@ -161,6 +161,12 @@ For transparency, see the [full email conversation]({{< ref
 "../attachment/2019-12-30-yubico-attestation-email-conversation.md" >}}) I had
 with the Yubico support regarding attestation problems.
 
+# Comments?
+
+Do you have comments? Interact with this tweet:
+
+{{< tweet 1211653256415461380 >}}
+
 # Credit
 
 Thanks to Alexander Kjäll for reviewing.
