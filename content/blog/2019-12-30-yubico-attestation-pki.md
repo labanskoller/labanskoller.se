@@ -12,12 +12,19 @@ tags:
 ---
 
 This is the story on how I discovered that Yubico used an invalid certificate chain in their
-Personal Identity Verification (PIV) attestation feature on YubiKey 4.3 and YubiKey NEO, which could
+Personal Identity Verification (PIV) attestation feature on YubiKey 4.3 ~~and YubiKey NEO~~, which could
 only be solved by a new hardware release. The impact for users and organizations is that the
 certificate chain will be deemed invalid by tools that verifies the chain properly, such as OpenSSL
 version 1.1.0 and later. Yubico has published a custom Python script that can be used to verify
 their attestation certificate chains. Organizations can also deploy their own certificates onto the
 affected YubiKeys instead of relying on Yubico's public key infrastructure (PKI).
+
+**UPDATE 2020-JAN-08:** I've striked out YubiKey NEO above since that device never had the
+attestation capability. YubiKey NEO was erroneously mentioned in [Yubico's support article about
+this
+problem](https://support.yubico.com/support/solutions/articles/15000013406-piv-attestation-verification-fails-with-openssl-1-1-0)
+which has now been corrected. Thanks to Klas Lindfors at Yubico for pointing out this in my
+[yubico-piv-tool pull request #216](https://github.com/Yubico/yubico-piv-tool/pull/216).
 
 # What Is A YubiKey?
 A YubiKey is a small device you use over USB or NFC with your computer or mobile phone. It can store
