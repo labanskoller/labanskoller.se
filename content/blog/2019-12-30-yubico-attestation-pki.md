@@ -5,7 +5,7 @@ date: 2019-12-30T15:00:00+01:00
 toc: true
 featured_image: blog/images/broken_chains.png
 images:
-  - blog/images/brokan_chains.png
+  - blog/images/broken_chains.png
 tags:
   - PKI
   - Certificates
