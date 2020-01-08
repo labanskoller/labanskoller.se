@@ -11,6 +11,7 @@ SectionPagesMenu: main
 Paginate: 10
 googleAnalytics: ""
 enableRobotsTXT: true
+enableGitInfo: true
 
 sitemap:
   changefreq: monthly
