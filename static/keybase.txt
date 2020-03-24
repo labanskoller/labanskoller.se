@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/labanskoller
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://labanskoller.se
+  * I am labanskoller (https://keybase.io/labanskoller) on keybase.
+  * I have a public key ASA3JPFbSI3aabnKzjldkT2P_E14jcJxYqziED_1rkNJaQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120469c1df62f1f26f0476cdcac5f94d566e8fa8bdae3a86a11eb3863952ac4d80c0a",
+      "host": "keybase.io",
+      "kid": "01203724f15b488dda69b9cace395d913d8ffc4d788dc27162ace2103ff5ae4349690a",
+      "uid": "809ca99a584ffd961f06b651e5765619",
+      "username": "labanskoller"
+    },
+    "merkle_root": {
+      "ctime": 1585083854,
+      "hash": "d4e566b6146aa4710c7b3fe72bb4adaed39f7263681d5080d7ec2ac5a55d4f584e465efe66825d571578c0e59a7fb935e85d91f4757b76f87ff01918bb894697",
+      "hash_meta": "4038f1296e0706935d8fc50d13b8c6faec86d5e4b5a38d1857185c8478e77cfe",
+      "seqno": 15589818
+    },
+    "service": {
+      "entropy": "ZmqWd17b+YtW11UOjjmvFRNH",
+      "hostname": "labanskoller.se",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.3.0"
+  },
+  "ctime": 1585083879,
+  "expire_in": 504576000,
+  "prev": "867cfa319269cf656997ab835b42b647ed61bab03aca1b5789535c940efd8ad8",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgNyTxW0iN2mm5ys45XZE9j/xNeI3CcWKs4hA/9a5DSWkKp3BheWxvYWTESpcCD8Qghnz6MZJpz2Vpl6uDW0K2R+1hurA6yhtXiVNclA79itjEIC1aFuGiquqGE5jt/mMpdx7SxydCTwl7t9nP1IUZgczIAgHCo3NpZ8RA2WqVUpp0mtKqIU6iCAHUcKQ8boRFHAOvcd0i/httsd8VtIDYnByLjJq0UjZKQCnaIXdz8DlvD+JTXru3TyyxD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIA5jT/F7i6V37WAfTjr7knF19FRZCRVBtM+H7QZsFQUDo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/labanskoller
+
+==================================================================
