@@ -36,4 +36,12 @@ params:
   linkedin: https://www.linkedin.com/in/labanskoller/
   twitter: https://twitter.com/LabanSkoller
   recent_posts_number: 5
+  mainSections:
+    - blog
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
 ...
