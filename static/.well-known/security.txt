@@ -1,0 +1,14 @@
+# This website is statically generated. However, if you have found a security
+# problem, such as with the hosting, please report it to me.
+
+# If you have Keybase (for end-to-end encrypted chats), please contact:
+Contact: https://keybase.io/labanskoller
+# If you have Signal or WhatsApp (for end-to-end encrypted chats), please
+# contact:
+Contact: tel:+46733608613
+# Email as last resort:
+Contact: mailto:laban@kryo.se
+
+Preferred-Languages: en, sv
+
+Canonical: https://labanskoller.se/.well-known/security.txt
