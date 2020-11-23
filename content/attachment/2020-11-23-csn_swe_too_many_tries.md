@@ -1,7 +1,7 @@
 ---
 title: "CSN: Original Too Many Tries Message in Swedish"
 author: Laban Sköllermark ([@LabanSkoller](https://twitter.com/LabanSkoller))
-date: 2020-11-23T20:00:00+01:00
+date: 2020-11-23T19:30:00+01:00
 featured_image: blog/images/csn_pin.jpeg
 images:
   - blog/images/csn_pin.jpeg
