@@ -619,7 +619,9 @@ traceability.
 
 Do you have questions, comments or corrections? Please interact with the
 [tweet](https://twitter.com/LabanSkoller/status/1374461045633257482) or
-LinkedIn post or [make a pull
+[LinkedIn
+post](https://www.linkedin.com/posts/labanskoller_the-devise-extension-that-peeled-off-one-activity-6780228700697849856-Tqfq)
+or [make a pull
 request](https://github.com/labanskoller/labanskoller.se/edit/main/content/blog/2021-03-23-devise_masquerade.md).
 
 # Credit
