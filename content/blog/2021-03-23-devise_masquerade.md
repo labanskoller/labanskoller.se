@@ -237,7 +237,7 @@ and the user ID is reset back to 1 and that user’s salt is loaded from the
 database.
 
 Here is a good place to stop and reflect over the masquerade functionality and
-what is means for the security assumption described earlier. Can you spot the
+what it means for the security assumption described earlier. Can you spot the
 issue?
 
 # The devise_masquerade Issue
@@ -635,6 +635,8 @@ Thanks to:
 * My Defensify colleague [Jinny
   Ramsmark](https://www.linkedin.com/in/jinnyramsmark/) for reviewing this blog
   post
+* [Niklas Andersson](https://www.linkedin.com/in/niklas-andersson-21308a7/) for
+  pointing out a typo 2021-APR-08
 * Onion photo <a
   href="https://www.dreamstime.com/royalty-free-stock-image-peeling-onion-image27402026">27402026</a>
   © <a href="https://www.dreamstime.com/leeavison_info"
