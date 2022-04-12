@@ -215,9 +215,11 @@ My recommendations, in order of importance:
 
 **2022-FEB-22** Publication of this blog post.
 
-**2022-FEB-23** Redacted one piece of information which was forgotten.
+**2022-FEB-23** Fixed a typo.
 
 **2022-MAR-15** Removed some unnecessary information.
+
+**2022-APR-08** I was contacted about a typo in a company name. Published an update the 12th of March. See the [Credit section](#credit) for details.
 
 ## Deployed Fixes
 
@@ -257,7 +259,7 @@ Verisure seems to have removed the duplicate `Set-Cookie` headers with identical
 I notice that there is now an HTTP Strict Transport Security (HSTS) header on the My Pages domain with a `max-age` of one year, as recommended. The whole top domain [securitas-direct.com](https://securitas-direct.com/) has HSTS as well (not preloaded), but probably nobody will visit it to pick up the policy.
 
 ## Disclosure
-I have previously worked for Verisure Innovation AB which together with Securitas Sverige AB are part of Securitas Direct Verisure Group. I worked with IT operations and never with the physical alarm systems or the customers' interaction with the service. No inside knowledge was used to find the session fixation vulnerability. It was discovered when I received a My Pages account myself while having access to the facility in question.
+I have previously worked for Verisure Innovation AB which together with Securitas Direct Sverige AB are part of Securitas Direct Verisure Group. I worked with IT operations and never with the physical alarm systems or the customers' interaction with the service. No inside knowledge was used to find the session fixation vulnerability. It was discovered when I received a My Pages account myself while having access to the facility in question.
 
 ## Comments?
 
@@ -273,4 +275,5 @@ Thanks to:
 
 * My former Verisure Innovation colleagues who helped me get in contact with the right person for reporting security vulnerabilities
 * [Niklas Andersson](https://www.linkedin.com/in/niklas-andersson-21308a7/) for
-  pointing out that I forgot to redact some information in one place, 2022-FEB-23. That warranted some commit squashing and force pushing...
+  pointing out a typo
+* [Kristofer Johansson](https://www.linkedin.com/in/kristofer-johansson-6263322b/) for pointing out that I forgot the word "Direct" in "Securitas Direct Sverige AB". "Securitas Sverige AB" is a Securitas company and not related to the article at all. The two companies are owned by different entities since 2006.
