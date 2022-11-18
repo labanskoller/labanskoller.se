@@ -35,6 +35,7 @@ params:
   github: https://github.com/labanskoller
   linkedin: https://www.linkedin.com/in/labanskoller/
   twitter: https://twitter.com/LabanSkoller
+  mastodon: https://infosec.exchange/@LabanSkoller
   recent_posts_number: 5
   mainSections:
     - blog
