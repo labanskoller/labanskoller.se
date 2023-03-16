@@ -203,7 +203,7 @@ This year when I've included many new apps there were several with full support 
 
 ## Comments?
 
-Do you have questions, comments or corrections? Please interact with the [tweet](https://twitter.com/LabanSkoller/status/1636179215002267648),
+Do you have questions, comments or corrections? Please interact with the [toot](https://infosec.exchange/@LabanSkoller/110030440578631332), [tweet](https://twitter.com/LabanSkoller/status/1636179215002267648),
 [LinkedIn
 post](https://www.linkedin.com/posts/labanskoller_mobile-authenticator-apps-algorithm-support-activity-7041946003049979904-EdI1/)
 or [make a pull
