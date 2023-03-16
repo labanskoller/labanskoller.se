@@ -201,6 +201,14 @@ Many common mobile authenticator apps accept QR codes for hash algorithms, perio
 
 This year when I've included many new apps there were several with full support for all tested TOTP variations, so I won't crown the best ones.
 
+## Comments?
+
+Do you have questions, comments or corrections? Please interact with the [tweet](https://twitter.com/LabanSkoller/status/1636179215002267648),
+[LinkedIn
+post](https://www.linkedin.com/posts/labanskoller_mobile-authenticator-apps-algorithm-support-activity-7041946003049979904-EdI1/)
+or [make a pull
+request](https://github.com/labanskoller/labanskoller.se/edit/main/content/blog/2023-03-16-totp-app-comparison-2023-edition.md).
+
 # Credit
 Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> licensed by <a href="https://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>.
 
