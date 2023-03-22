@@ -199,7 +199,7 @@ AA_SHA512_8dig_60s: 86246498
 
 Many common mobile authenticator apps accept QR codes for hash algorithms, periods and number of digits they don’t support. They give **wrong tokens**, **no error messages** and therefore a **bad user experience**. I urge TOTP app developers to validate the data that comes from the scanned QR codes and present the user with a descriptive error message if they choose to not support all possible modes. I recommend site owners who support two-step verification using TOTP to give users guidelines on which apps to use if they choose a mode other than the most common HMAC-SHA1 algorithm, 6 digits and a period of 30 seconds.
 
-This year when I've included many new apps there were several with full support for all tested TOTP variations, so I won't crown the best ones.
+This year when I included many new apps there were several with full support for all tested TOTP variations, so I won't crown the best ones.
 
 ## Comments?
 
@@ -210,6 +210,7 @@ or [make a pull
 request](https://github.com/labanskoller/labanskoller.se/edit/main/content/blog/2023-03-16-totp-app-comparison-2023-edition.md).
 
 # Credit
-Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> licensed by <a href="https://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>.
 
-Thanks to [Karl Emil Nikka](https://www.linkedin.com/in/karlemilnikka/) for bringing up the TOTP subject is his podcast so I felt urged to refresh my old blog post.
+* Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> licensed by <a href="https://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>.
+* Thanks to [Karl Emil Nikka](https://www.linkedin.com/in/karlemilnikka/) for bringing up the TOTP subject in his podcast so I felt urged to refresh my old blog post.
+* Thanks to [Benjamin Björk](https://www.linkedin.com/in/benjamin-bjork/) for pointing out a spelling mistake (corrected 2023-MAR-22).
