@@ -7,6 +7,7 @@ tags:
   - Coordinated Disclosure
   - Web Vulnerabilities
   - Sentor Blog Posts
+  - Employer Posts
 ---
 
 When working for my employer Sentor I discovered an authentication bypass vulnerability in Auth0. I blogged about it on the company blog: [Vulnerability disclosure: Authentication bypass in Auth0](https://sentorsecurity.com/blog/vulnerability-disclosure-authentication-bypass-in-auth0/)

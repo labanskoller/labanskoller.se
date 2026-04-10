@@ -7,6 +7,7 @@ tags:
   - Coordinated Disclosure
   - Web Vulnerabilities
   - Sentor Blog Posts
+  - Employer Posts
 ---
 
 When working for my employer Sentor I discovered a session fixation vulnerability in Auth0. I blogged about it on the company blog: [Vulnerability disclosure: Session fixation in Auth0](https://sentorsecurity.com/blog/vulnerability-disclosure-session-fixation-in-auth0/)
